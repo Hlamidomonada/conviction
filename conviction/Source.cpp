@@ -2,7 +2,7 @@
 
 int main()
 {
-	std::cout << " Text #1, Text #2 ";
+	std::cout << " Text #1 ";
 
 	return 0;
 }
