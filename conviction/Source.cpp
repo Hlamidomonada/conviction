@@ -10,9 +10,9 @@ int main()
 
 void printGoodbye()
 {
-	std::cout << "Goodbye";
+	std::cout << "Goodbye!";
 }
 
 void printHello() {
-	std::cout << "Hello";
+	std::cout << "Hello!";
 }
