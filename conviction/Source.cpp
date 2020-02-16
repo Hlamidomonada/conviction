@@ -2,12 +2,12 @@
 
 int main()
 {
-	std::cout << "Text #1"<< std::endl;
-	std::cout << "Text #2"<< std::endl;
-
+	printHello();
+	q_on();
+	printGoodbye();
 	return 0;
 }
-void q_on( bool ans )
+void q_on()
 {
 std::cout << "Are you ok?";
 std::cout<< std::endl<< "Press "1" if Yes and "0" if No";
@@ -22,4 +22,8 @@ void printGoodbye()
 
 void printHello() {
 	std::cout << "Hello!";
+}
+void print()
+{
+std::cout << "(??• ? •?) ";
 }
