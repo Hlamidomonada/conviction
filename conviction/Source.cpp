@@ -2,12 +2,12 @@
 
 int main()
 {
-	std::cout << "Text #1"<< std::endl;
-	std::cout << "Text #2"<< std::endl;
-
+	printHello();
+	q_on();
+	printGoodbye();
 	return 0;
 }
-void q_on( std::string ans )
+void q_on()
 {
 std::cout << "Are you ok?\n\ YES/NO";
 std::cin >> ans;
