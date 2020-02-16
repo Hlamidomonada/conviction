@@ -10,7 +10,7 @@ int main()
 void q_on( std::string ans )
 {
 std::cout << "Are you ok?\n\ YES/NO";
-std::cin << ans;
+std::cin >> ans;
 }
 void printGoodbye()
 {
