@@ -7,11 +7,14 @@ int main()
 
 	return 0;
 }
-void q_on( std::string ans )
+void q_on( bool ans )
 {
-std::cout << "Are you ok?\n\ YES/NO";
+std::cout << "Are you ok?";
+std::cout<< std::endl<< "Press "1" if Yes and "0" if No";
 std::cin >> ans;
+std::cout << (ans? "Great!": "Oh,may be you shold take a rest"); 
 }
+
 void printGoodbye()
 {
 	std::cout << "Goodbye!";
